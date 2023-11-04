@@ -15,11 +15,14 @@ pod install
 
 Usage
 After installing the pod, you can import it in your Swift files:
+
+```
 import SimpleQuotes
 
 let simpleQuotes = SimpleQuotes()
 let randomEnglishQuote = simpleQuotes.generateEnglishQuotes()
 let randomVietnamQuote = simpleQuotes.generateVietnamQuotes()
+```
 
 License
 SimpleQuotes is available under the MIT license. See the LICENSE file for more info.
