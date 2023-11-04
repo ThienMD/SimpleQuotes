@@ -16,7 +16,7 @@ pod install
 Usage
 After installing the pod, you can import it in your Swift files:
 
-```
+```swift
 import SimpleQuotes
 
 let simpleQuotes = SimpleQuotes()

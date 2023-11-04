@@ -28,3 +28,9 @@ all: release debug xcframework
 
 pod-spec:
 	pod spec create SimpleQuotes
+
+pod-register:
+	pod trunk register user@outlook.com 'Thien PV'
+
+pod-push:
+	pod trunk push SimpleQuotes.podspec
