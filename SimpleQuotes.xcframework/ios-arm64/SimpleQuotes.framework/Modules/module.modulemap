@@ -1,0 +1,11 @@
+framework module SimpleQuotes {
+  umbrella header "SimpleQuotes.h"
+  export *
+
+  module * { export * }
+}
+
+module SimpleQuotes.Swift {
+  header "SimpleQuotes-Swift.h"
+  requires objc
+}

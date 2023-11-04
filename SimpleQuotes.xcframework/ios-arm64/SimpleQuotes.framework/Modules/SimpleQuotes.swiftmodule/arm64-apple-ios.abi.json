@@ -1,0 +1,127 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SimpleQuotes",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SimpleQuotes",
+        "printedName": "SimpleQuotes",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SimpleQuotes",
+                "printedName": "SimpleQuotes.SimpleQuotes",
+                "usr": "s:12SimpleQuotesAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12SimpleQuotesAACABycfc",
+            "mangledName": "$s12SimpleQuotesAACABycfc",
+            "moduleName": "SimpleQuotes",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "generateVietnamQuotes",
+            "printedName": "generateVietnamQuotes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SimpleQuotesAAC015generateVietnamB0SSyF",
+            "mangledName": "$s12SimpleQuotesAAC015generateVietnamB0SSyF",
+            "moduleName": "SimpleQuotes",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateEnglishQuotes",
+            "printedName": "generateEnglishQuotes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12SimpleQuotesAAC015generateEnglishB0SSyF",
+            "mangledName": "$s12SimpleQuotesAAC015generateEnglishB0SSyF",
+            "moduleName": "SimpleQuotes",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12SimpleQuotesAAC",
+        "mangledName": "$s12SimpleQuotesAAC",
+        "moduleName": "SimpleQuotes",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/T7\/My-Workspace\/framework\/SimpleQuotes\/SimpleQuotes\/SimpleQuotes.swift",
+      "kind": "Array",
+      "offset": 209,
+      "length": 120,
+      "value": "[\"Đi một ngày đàng, học một sàng khôn\", \"Học một lúc, nhớ một đời\", \"Học hành chẳng quên\"]"
+    },
+    {
+      "filePath": "\/Volumes\/T7\/My-Workspace\/framework\/SimpleQuotes\/SimpleQuotes\/SimpleQuotes.swift",
+      "kind": "Array",
+      "offset": 356,
+      "length": 194,
+      "value": "[\"The journey of a thousand miles begins with one step.\", \"Education is the most powerful weapon which you can use to change the world.\", \"The only way to do great work is to love what you do.\"]"
+    },
+    {
+      "filePath": "\/Volumes\/T7\/My-Workspace\/framework\/SimpleQuotes\/SimpleQuotes\/SimpleQuotes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 666,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Volumes\/T7\/My-Workspace\/framework\/SimpleQuotes\/SimpleQuotes\/SimpleQuotes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 821,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

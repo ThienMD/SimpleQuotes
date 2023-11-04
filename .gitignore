@@ -1,0 +1,26 @@
+
+# Xcode
+#
+
+## Build generated
+build/
+DerivedData/
+archives
+
+## Pods
+Pods/
+*.lock
+
+
+## SPM
+.build/
+
+## Generated files
+*.pb.swift
+
+## Others
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
