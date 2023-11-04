@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name = "SimpleQuotes"
-  spec.version = "0.5.0"
+  spec.version = "0.5.1"
   spec.summary = "English and Vietnamese quotes."
 
   # This description is used to generate tags and improve search results.
