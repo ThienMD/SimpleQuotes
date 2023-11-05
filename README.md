@@ -25,4 +25,4 @@ let randomVietnamQuote = simpleQuotes.generateVietnamQuotes()
 ```
 
 License
-SimpleQuotes is available under the MIT license. See the LICENSE file for more info.
+SimpleQuotes is available under the APACHE license. See the LICENSE file for more info.
